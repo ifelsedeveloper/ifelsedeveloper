@@ -71,12 +71,10 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 
 ## 🔗 Useful links
 - Rarible — https://rarible.com/  
-- SwapTasteNFT (DEX farms) — https://swap.tastenfts.com/farms  
 - Xayo — https://www.xayoapp.com/  
 - Carbon Tokens Market — https://carbontokensmarket.com/  
 - Minter Browser — http://www.getminter.com  
 - Tradespoon — http://www.tradespoon.com  
-- Occly — https://www.occlysafety.com/
 
 ---
 
