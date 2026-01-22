@@ -14,6 +14,7 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 - **RARI cross‑chain bridge (LayerZero OFT)** — Ethereum ↔ Base: contracts, adapter, and a minimal NestJS microservice (`lz-bridge-service`) plus a Next.js UI (`ui-rari-bridge`).
 - **Reward swap / liquidity automation** — NestJS service integrating **Uniswap v3** (AlphaRouter/QuoterV2) for scheduled swaps and cron‑driven flows.
 - **Gas‑efficient Solidity patterns** — storage packing, memory‑safe assembly, proxy patterns, CREATE2/CREATE3 deterministic deploys.
+- **1inch SwapVM** — Math fromulas for AMM with fee and reinvest, AMM for swap.
 
 > I love turning messy multi‑chain flows into simple, reliable CLIs and services.
 
