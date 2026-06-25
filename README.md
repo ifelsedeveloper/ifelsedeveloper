@@ -1,6 +1,6 @@
 # Vadim Fadeev — Blockchain Tech Lead / Senior Smart‑Contract Engineer @ 1inch
 
-Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockchain products: smart contracts, indexing backends, and modern front‑ends. I’ve led and shipped NFT marketplaces, DEXes, and tooling across **Ethereum**, **Solana**, and **Aptos**. I enjoy clean architectures, deterministic deployments, and squeezing gas like it’s a sport. Now at **1inch**, I design DEX execution (**SwapVM** / **Aqua**) and a custom AMM backed by publication‑grade formal mathematics and formal verification.
+Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockchain products: smart contracts, indexing backends, and modern front‑ends. I’ve led and shipped DEXes, NFT marketplaces, and tooling across **Ethereum**, **Solana**, and **Aptos**. I enjoy clean architectures, deterministic deployments, and squeezing gas like it’s a sport. Now at **1inch**, I design DEX execution (**SwapVM** / **Aqua**) and a custom AMM backed by publication‑grade formal mathematics and formal verification.
 
 <p align="center">
   <a href="https://github.com/ifelsedeveloper"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ifelsedeveloper?label=Follow&style=for-the-badge"></a>
