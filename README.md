@@ -1,6 +1,6 @@
-# Vadim Fadeev — Blockchain Tech Lead / Senior Smart‑Contract Engineer
+# Vadim Fadeev — Blockchain Tech Lead / Senior Smart‑Contract Engineer @ 1inch
 
-Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockchain products: smart contracts, indexing backends, and modern front‑ends. I’ve led and shipped NFT marketplaces, DEXes, and tooling across **Ethereum**, **Solana**, and **Aptos**. I enjoy clean architectures, deterministic deployments, and squeezing gas like it’s a sport.
+Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockchain products: smart contracts, indexing backends, and modern front‑ends. I’ve led and shipped NFT marketplaces, DEXes, and tooling across **Ethereum**, **Solana**, and **Aptos**. I enjoy clean architectures, deterministic deployments, and squeezing gas like it’s a sport. Now at **1inch**, I design DEX execution (**SwapVM** / **Aqua**) and a custom AMM backed by publication‑grade formal mathematics and formal verification.
 
 <p align="center">
   <a href="https://github.com/ifelsedeveloper"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ifelsedeveloper?label=Follow&style=for-the-badge"></a>
@@ -11,8 +11,9 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 ---
 
 ## 🚀 What I’m building now
+- **1inch — SwapVM & Aqua** — VM‑based DEX execution architecture + its liquidity integration layer; a custom two‑layer AMM with bonding curves backed by formal whitepaper/yellowpaper. Found and fixed a critical drain in the AMM compensation math through analytical verification before external audit; owned the audit process end‑to‑end.
 - **RARI cross‑chain bridge (LayerZero OFT)** — Ethereum ↔ Base: contracts, adapter, and a minimal NestJS microservice (`lz-bridge-service`) plus a Next.js UI (`ui-rari-bridge`).
-- **Reward swap / liquidity automation** — NestJS service integrating **Uniswap v3** (AlphaRouter/QuoterV2) for scheduled swaps and cron‑driven flows.
+- **Reward swap / liquidity automation** — NestJS service integrating **Uniswap v3/v4** (AlphaRouter/QuoterV2) for scheduled swaps and cron‑driven flows.
 - **Gas‑efficient Solidity patterns** — storage packing, memory‑safe assembly, proxy patterns, CREATE2/CREATE3 deterministic deploys.
 
 > I love turning messy multi‑chain flows into simple, reliable CLIs and services.
@@ -20,8 +21,9 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 ---
 
 ## 🧩 Selected work
+- **Custom AMM/DEX (1inch)** — AMM with formally verified invariants; analytical verification of the Solidity implementation against its mathematical model.
 - **Rarible** — Tech lead & smart‑contract engineer for EVM/Solana/Aptos: primary sales, marketplace, indexers, and UI SDK packages.
-- **DEX (EVM)** — Designed and delivered core contracts and The Graph APIs for a farming DEX (SwapTasteNFT).
+- **DEX (EVM)** — Designed and delivered core contracts and The Graph APIs for a farming DEX (SwapTasteNFT - UniswapV2).
 - **Minter Browser / Blockmint** — Architected data‑heavy pipelines, CI/CD, and crypto monetization flows.
 - **Tradespoon / HFT tools** — Market‑data pipelines and forecasting (CBOE/CME protocols), mobile apps, and analytics.
 
@@ -31,7 +33,8 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 
 ## 🛠️ Tech stack (favorite tools)
 **Chains:** Ethereum, Solana, Aptos · **Core:** Solidity, Rust, Move, TypeScript, Python  
-**Contracts:** Foundry, Hardhat, Anchor, OpenZeppelin, ERC‑20/721/1155, ERC‑20Votes  
+**Contracts:** Foundry, Hardhat, Anchor, OpenZeppelin · ERC‑20/721/1155, ERC‑4626, ERC‑2612 / Permit2, EIP‑712, ERC‑1967 / UUPS  
+**Math:** Newton‑Raphson, bisection / binary search, modular & finite‑field arithmetic, extended Euclidean, Chinese Remainder Theorem, fixed‑point arithmetic, numerical verification (Python)  
 **Infra:** NestJS, The Graph, Postgres, Redis, MongoDB, IPFS  
 **DevOps:** GitHub Actions, Docker, CI/CD, Terraform · **Patterns:** proxies, upgradeability, deterministic deploys  
 **Data/Trading:** Uniswap v3, market‑data processing, backtesting, automation
@@ -51,6 +54,7 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 ---
 
 ## 🧪 Highlighted projects
+- **1inch — DEX execution & custom AMM** — VM‑based DEX execution and liquidity‑integration layer; a custom AMM with **formally verified invariants** and end‑to‑end **audit‑by‑design** ownership; cross‑chain resolver work and **Fusion+** integration.  
 - **LayerZero RARI OFT bridge** — OFT token + **Adapter** on Ethereum, service (`lz-bridge-service`) and **UI** (`ui-rari-bridge`) for seamless ETH→Base transfers.  
 - **Reward Swap Service** — Cron‑driven swaps (WETH⇄RARI) with slippage controls and environment‑driven configs.  
 - **Indexers & APIs** — The Graph endpoints for DEX/NFT flows; infra & CI/CD from zero to production.  
@@ -61,7 +65,8 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 ---
 
 ## 🧭 Experience
-- **Rarible, Tech Lead / Senior Blockchain Developer** — *Sep 2022 → Present*  
+- **1inch, Senior Smart‑Contract Engineer** — *Nov 2025 → Present*  
+- **Rarible, Tech Lead / Senior Blockchain Developer** — *Sep 2022 → Nov 2025*  
 - **Blockmint Technologies, Tech Lead / Senior Software Architect** — *Jun 2017 → Jul 2023*  
 - **Velvetech LLC, Tech Lead / Senior Software Engineer** — *Dec 2012 → Sep 2022*  
 
@@ -69,7 +74,13 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 
 ---
 
+## 📄 Publications
+- **Reinvested strict additivity for two curves** — formal proof for custom AMM mathematics (1inch SwapVM). [PDF](https://github.com/1inch/swap-vm/blob/99dcb481724af1e0fd5d0da41e00a34698b6d1ec/docs/reinvested_strict_additivity_two_curves.pdf)
+
+---
+
 ## 🔗 Useful links
+- 1inch — https://1inch.com/ 
 - Rarible — https://rarible.com/  
 - Xayo — https://www.xayoapp.com/  
 - Carbon Tokens Market — https://carbontokensmarket.com/  
@@ -94,4 +105,4 @@ If you’re building onchain infra (marketplaces, bridges, indexers, or clever t
 
 ---
 
-<sub>Last updated: September 05, 2025</sub>
+<sub>Last updated: June 2, 2026</sub>
