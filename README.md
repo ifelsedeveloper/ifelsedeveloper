@@ -11,7 +11,7 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 ---
 
 ## 🚀 What I’m building now
-- **1inch — SwapVM & Aqua** — VM‑based DEX execution architecture + its liquidity integration layer; a custom two‑layer AMM with bonding curves backed by formal whitepaper/yellowpaper. AMM compensation math through analytical verification before external audit; owned the audit process end‑to‑end.
+- **1inch — SwapVM & Aqua** — VM‑based DEX execution architecture + its liquidity integration layer; a custom two‑layer AMM with bonding curves backed by formal whitepaper/yellowpaper. Performed pre-audit analytical verification of AMM compensation math and owned the audit process end-to-end.
 - **RARI cross‑chain bridge (LayerZero OFT)** — Ethereum ↔ Base: contracts, adapter, and a minimal NestJS microservice (`lz-bridge-service`) plus a Next.js UI (`ui-rari-bridge`).
 - **Reward swap / liquidity automation** — NestJS service integrating **Uniswap v3** (AlphaRouter/QuoterV2) for scheduled swaps and cron‑driven flows.
 - **Gas‑efficient Solidity patterns** — storage packing, memory‑safe assembly, proxy patterns, CREATE2/CREATE3 deterministic deploys.
