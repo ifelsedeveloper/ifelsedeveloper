@@ -11,7 +11,7 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 ---
 
 ## 🚀 What I’m building now
-- **1inch — SwapVM & Aqua** — VM‑based DEX execution architecture + its liquidity integration layer; a custom two‑layer AMM with bonding curves backed by formal whitepaper/yellowpaper. Found and fixed a critical drain in the AMM compensation math through analytical verification before external audit; owned the audit process end‑to‑end.
+- **1inch — SwapVM & Aqua** — VM‑based DEX execution architecture + its liquidity integration layer; a custom two‑layer AMM with bonding curves backed by formal whitepaper/yellowpaper. AMM compensation math through analytical verification before external audit; owned the audit process end‑to‑end.
 - **RARI cross‑chain bridge (LayerZero OFT)** — Ethereum ↔ Base: contracts, adapter, and a minimal NestJS microservice (`lz-bridge-service`) plus a Next.js UI (`ui-rari-bridge`).
 - **Reward swap / liquidity automation** — NestJS service integrating **Uniswap v3/v4** (AlphaRouter/QuoterV2) for scheduled swaps and cron‑driven flows.
 - **Gas‑efficient Solidity patterns** — storage packing, memory‑safe assembly, proxy patterns, CREATE2/CREATE3 deterministic deploys.
@@ -21,7 +21,7 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 ---
 
 ## 🧩 Selected work
-- **Custom AMM/DEX (1inch)** — AMM with formally verified invariants; analytical verification of the Solidity implementation against its mathematical model.
+- **Custom AMM/DEX (1inch)** — AMM with analytical verification of the Solidity implementation against its mathematical model.
 - **Rarible** — Tech lead & smart‑contract engineer for EVM/Solana/Aptos: primary sales, marketplace, indexers, and UI SDK packages.
 - **DEX (EVM)** — Designed and delivered core contracts and The Graph APIs for a farming DEX (SwapTasteNFT - UniswapV2).
 - **Minter Browser / Blockmint** — Architected data‑heavy pipelines, CI/CD, and crypto monetization flows.
