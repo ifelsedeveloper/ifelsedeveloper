@@ -33,7 +33,7 @@ Hi, I’m **Vadim** (aka **@ifelsedeveloper**) — I build end‑to‑end blockc
 
 ## 🛠️ Tech stack (favorite tools)
 **Chains:** Ethereum, Solana, Aptos · **Core:** Solidity, Rust, Move, TypeScript, Python  
-**Contracts:** Foundry, Hardhat, Anchor, OpenZeppelin · ERC‑20/721/1155, ERC‑4626, ERC‑2612 / Permit2, EIP‑712, ERC‑1967 / UUPS  
+**Contracts:** Foundry, Hardhat, Anchor, OpenZeppelin · ERC‑4626,6909,7540,7575, ERC‑2612 / Permit2, EIP‑712
 **Math:** Newton‑Raphson, bisection / binary search, modular & finite‑field arithmetic, extended Euclidean, Chinese Remainder Theorem, fixed‑point arithmetic, numerical verification (Python)  
 **Infra:** NestJS, The Graph, Postgres, Redis, MongoDB, IPFS  
 **DevOps:** GitHub Actions, Docker, CI/CD, Terraform · **Patterns:** proxies, upgradeability, deterministic deploys  
